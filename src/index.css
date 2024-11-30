@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #f1f1f1;
+}
+
+@layer utilities {
+  .container {
+    @apply mx-auto max-w-7xl px-4;
+  }
+}
